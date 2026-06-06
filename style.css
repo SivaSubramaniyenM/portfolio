@@ -715,7 +715,25 @@ section {
   transform: translate(3px, -3px);
 }
 
-.project-award {
+.project-card--ongoing {
+  border-color: rgba(74, 222, 128, 0.2);
+  cursor: default;
+}
+
+.project-card--ongoing:hover {
+  border-color: rgba(74, 222, 128, 0.4);
+}
+
+.project-badge-ongoing {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: #4ade80;
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+  margin-left: auto;
+}
+
+
   font-family: var(--font-mono);
   font-size: 12px;
   color: var(--accent);
